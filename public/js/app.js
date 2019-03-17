@@ -44523,9 +44523,7 @@ var staticRenderFns = [
           attrs: { class: "glyphicon glyphicon-globe" }
         }),
         _vm._v(" Notification"),
-        _c("span", { pre: true, attrs: { class: "badge" } }, [
-          _vm._v("{{ notifications.length }}")
-        ]),
+        _c("span", { pre: true, attrs: { class: "badge" } }, [_vm._v("1")]),
         _vm._v(" "),
         _c("span", { pre: true, attrs: { class: "caret" } })
       ]
