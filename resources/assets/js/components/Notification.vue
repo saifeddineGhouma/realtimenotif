@@ -1,7 +1,7 @@
 <template>
            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
-                                    <span class="glyphicon glyphicon-globe"></span> Notification<span class="badge">{{ notifications.length }}</span> <span class="caret"></span>
+                                    <span class="glyphicon glyphicon-globe"></span> Notification<span class="badge"></span> <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li v-for="notification in notifications">
